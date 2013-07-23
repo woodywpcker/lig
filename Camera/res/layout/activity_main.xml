@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<TableRow>
+<TextView
+    
+	android:layout_width="fill_parent"
+	android:layout_height="12pt"
+	android:text="@string/user"
+	android:textSize="10pt"
+
+	/>	
+<EditText
+    android:id="@+id/user"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="请填写登录帐号"
+	android:selectAllOnFocus="true"
+	/>
+</TableRow>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/passwd"
+	android:textSize="10pt"	
+
+	/>	
+<EditText
+    android:id="@+id/passwd"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:password="true"
+	/>
+</TableRow>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/server"
+	android:textSize="10pt"	
+	
+	/>	
+<EditText
+    android:id="@+id/server"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="请填写您的服务器ip"
+	android:selectAllOnFocus="true"
+
+	/>
+</TableRow>
+<Button 
+    android:id="@+id/login"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/login"
+	/>
+</TableLayout>
